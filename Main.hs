@@ -14,4 +14,4 @@ main::IO()
 main = do
     argv <- getArgs
     texte <- readFile ( argv !! 0 )
-    print ( "traiter' texte" )
+    print ( traiter texte )
